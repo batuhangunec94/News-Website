@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News.Map", "News.Map\News.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News.BLL", "News.BLL\News.BLL.csproj", "{792904D2-9178-4692-828B-52A67BE2D5EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{79201271-D552-4D34-A769-7D22EA099F60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News.Services", "Services\News.Services.csproj", "{79201271-D552-4D34-A769-7D22EA099F60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

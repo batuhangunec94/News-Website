@@ -14,7 +14,7 @@ namespace Services
             _allNewsRepository = new AllNewsRepository();
             _categoryService = new CategoryRepository();
             _appUserService = new AppUserRepository();
-            
+
         }
         private CategoryRepository _categoryService;
         public CategoryRepository CategoryService { get { return _categoryService; } set { _categoryService = value; } }
