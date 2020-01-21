@@ -33,6 +33,7 @@ namespace News.BLL.Concrete
         {
             T item = GetByID(id);
             item.Status = Status.Passive;
+            item.DeleteDate = DateTime.Now;
             Save();
         }
 
@@ -40,7 +41,7 @@ namespace News.BLL.Concrete
 
         public List<T> GetActive()
         {
-            return table.Where(x => x.Status == Status.Active).ToList();
+            return table.Where(x => x.Status != Status.Passive).ToList();
         }
 
         public List<T> GetAll()

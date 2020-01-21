@@ -1,0 +1,67 @@
+﻿@model IEnumerable<News.Model.Entity.Concrete.Category>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/AdminLayoutPage.cshtml";
+}
+
+<section class="content">
+    <div class="row col-md-12">
+        <div class="box-header">
+            <h3 class="box-title">
+                Categories
+            </h3>
+        </div>
+        <div class="box-body">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Status
+                        </th>
+                        <th>
+                            Added Date
+                        </th>
+                        <th>
+                            Deleted Date
+                        </th>
+                        <th>
+                            Updated Date
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="col-md-6">
+                                @item.Name
+                            </td>
+                            <td class="col-md-1">
+                                @item.Status
+                            </td>
+                            <td class="col-md-1">
+                                @item.AddDate
+                            </td>
+                            <td class="col-md-1">
+                                @item.DeleteDate
+                            </td>
+                            <td class="col-md-1">
+                                @item.UpdateDate
+                            </td>
+                            <td class="col-md-1">
+                                <a href="Update/@item.ID" class="btn btn-primary">Update</a>
+                            </td>
+                            <td class="col-md-1">
+                                <a href="Delete/@item.ID" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+</section>
