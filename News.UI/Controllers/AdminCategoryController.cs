@@ -45,6 +45,7 @@ namespace News.UI.Controllers
             service.CategoryService.Update(category);
             return Redirect("/AdminCategory/List");
         }
+        
         public ActionResult Delete(int id)
         {
             service.CategoryService.Delete(id);

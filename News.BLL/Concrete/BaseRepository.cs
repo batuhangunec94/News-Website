@@ -28,6 +28,11 @@ namespace News.BLL.Concrete
             table.Add(item);
             Save();
         }
+        public void Add(List<T> item)
+        {
+            table.AddRange(item);
+            Save();
+        }
 
         public void Delete(int id)
         {

@@ -14,6 +14,7 @@ namespace News.BLL.Abstraction
         List<T> GetActive();
         T GetByID(int id);
         void Add(T item);
+        void Add(List<T> item);
         void Update(T item);
         void Delete(int id);
         

@@ -126,6 +126,7 @@
     <Compile Include="Models\DTO\AllNewsDTO\AllNewsDTO.cs" />
     <Compile Include="Models\DTO\BaseDTO.cs" />
     <Compile Include="Models\DTO\CategoryDTO\CategoryDTO.cs" />
+    <Compile Include="Models\VM\AllNewsVM\AllNewsAddVM.cs" />
     <Compile Include="Models\VM\AllNewsVM\AllNewsUpdateVM.cs" />
     <Compile Include="Models\VM\BaseVM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -149,6 +150,9 @@
     <Content Include="Views\AdminCategory\Add.cshtml" />
     <Content Include="Views\AdminCategory\List.cshtml" />
     <Content Include="Views\AdminCategory\Update.cshtml" />
+    <Content Include="Views\AdminNews\Add.cshtml" />
+    <Content Include="Views\AdminNews\List.cshtml" />
+    <Content Include="Views\AdminNews\Update.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -160,7 +164,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\Image\" />
     <Folder Include="Views\AdminNewsDefault\" />
-    <Folder Include="Views\AdminNews\" />
     <Folder Include="Views\Base\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
