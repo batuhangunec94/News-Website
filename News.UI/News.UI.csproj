@@ -145,6 +145,7 @@
     <Content Include="Content\Fonts\ionicons.eot" />
     <Content Include="Content\Fonts\ionicons.ttf" />
     <Content Include="Content\Fonts\ionicons.woff" />
+    <Content Include=".gitattributes" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\AdminLayoutPage.cshtml" />
     <Content Include="Views\AdminCategory\Add.cshtml" />
