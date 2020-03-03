@@ -15,11 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News.BLL", "News.BLL\News.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News.Services", "News.Services\News.Services.csproj", "{17A1D6E4-F3B4-434E-9AD6-6F50BE8F6BA2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gitattributes", "Gitattributes", "{6408EF95-286B-4649-B99B-69218B45FC0B}"
-	ProjectSection(SolutionItems) = preProject
-		.gitattributes = .gitattributes
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

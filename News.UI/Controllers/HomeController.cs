@@ -1,4 +1,5 @@
-﻿using System;
+﻿using News.Model.Entity.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +9,12 @@ namespace News.UI.Controllers
 {
     public class HomeController : BaseController
     {
+        
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+             
+            return View(service.AllNewsService.GetActive().ToList());
         }
     }
 }
